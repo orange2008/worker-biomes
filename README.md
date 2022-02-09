@@ -1,6 +1,6 @@
 # Worker Biomes
 
-![Deploy](https://github.com/lspgn/worker-biomes/workflows/Deploy/badge.svg)
+![Deploy](https://github.com/orange2008/worker-biomes/workflows/Deploy/badge.svg)
 
 ## REPO MODIFIED BY FRANK RUAN IN ORDER TO COMPILE THIS.
 
