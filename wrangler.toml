@@ -1,6 +1,6 @@
 name = "biomes"
 type = "webpack"
-account_id = ""
+account_id = "f4dec1a586099aee202e4fdf1df9072b"
 workers_dev = true
 route = ""
 zone_id = ""
