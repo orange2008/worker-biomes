@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Checkout submodules
-      uses: textbook/git-checkout-submodule-action@master
     - name: Navigate to repo
       run: cd $GITHUB_WORKSPACE
     - uses: actions/setup-node@v1
@@ -23,6 +21,8 @@ jobs:
       run: npm i @cloudflare/wrangler@1.8.4 -g
     - name: Install Workers script deps
       run: npm install
+    - name: Submodule
+      run: git submodule update --init --recursive
     - name: Build Workers script
       run: wrangler build
     - name: Wrangler auth check
