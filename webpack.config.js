@@ -4,7 +4,7 @@ const path = require('path');
 const spawn = require('child_process').spawnSync;
 const Handlebars = require('handlebars');
 
-const PUBLISH_ADDRESS = 'https://biomes.lspgn.workers.dev';
+const PUBLISH_ADDRESS = 'https://biomes.shuairuan.workers.dev';
 let tmpRnd = Math.random().toString();
 if (tmpRnd.length >= 2) {
     tmpRnd = tmpRnd.slice(2);
